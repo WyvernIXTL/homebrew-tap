@@ -1,25 +1,25 @@
 class Wuerfel < Formula
   desc "Diceware password generator cli based on eff password lists."
   homepage "https://github.com/WyvernIXTL/wuerfel-rs"
-  version "0.1.9"
+  version "0.1.10"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/WyvernIXTL/wuerfel-rs/releases/download/v0.1.9/wuerfel-aarch64-apple-darwin.tar.xz"
-      sha256 "788cc352f68672a0366e142f5f615e385286f148f33ffa5e6339bb56ed84d4b0"
+      url "https://github.com/WyvernIXTL/wuerfel-rs/releases/download/v0.1.10/wuerfel-aarch64-apple-darwin.tar.xz"
+      sha256 "87d7322114d13cf91673a345cb6d232f80483f5f0a7af83f4be2a73999fb1dbc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/WyvernIXTL/wuerfel-rs/releases/download/v0.1.9/wuerfel-x86_64-apple-darwin.tar.xz"
-      sha256 "4c770b73e1d90e311932596d07495c7808a21f503afbd1e90f62dde9bf295b57"
+      url "https://github.com/WyvernIXTL/wuerfel-rs/releases/download/v0.1.10/wuerfel-x86_64-apple-darwin.tar.xz"
+      sha256 "6a4ef002a60bd3b6b2bbbe26fb9e1d9825cf93ea4a58bc51dfb4e5980769b6ef"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/WyvernIXTL/wuerfel-rs/releases/download/v0.1.9/wuerfel-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "917f8f299f01d6a2b91be09364ab312dcb910dba11eed4bb9f4ce202caea6a8c"
+      url "https://github.com/WyvernIXTL/wuerfel-rs/releases/download/v0.1.10/wuerfel-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "7cdadeaebda1476f299a8c866501d7d6debda513b9ce3a9418594e43d529b408"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/WyvernIXTL/wuerfel-rs/releases/download/v0.1.9/wuerfel-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e53c84be9e600ebb3d0c43447b4b799323a16110e19592fbe18fd6f34548b33c"
+      url "https://github.com/WyvernIXTL/wuerfel-rs/releases/download/v0.1.10/wuerfel-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "ce2f6b77da82fc5f50f697e8fac69e4b6908f278191c76b338a06248a2620a89"
     end
   end
   license "MPL-2.0"
